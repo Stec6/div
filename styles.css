@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0;
+}
+
+.square {
+    display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+/* Estilize apenas o primeiro quadrado da primeira linha com uma borda preta */
+.black-border {
+    border: 1px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color:cyan;
+}
+
+.green {
+    background-color:green ;
+}
+
+.yellow {
+    background-color: yellow;
+}
